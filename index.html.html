@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASTC 6th Convocation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #007BFF; /* Blue background color */
+            color: #fff; /* White text for better readability on blue background */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1, header h2, header p {
+            margin: 0.5rem 0;
+        }
+
+        .center-image {
+            display: flex;
+            justify-content: center;
+            margin: 1rem 0;
+        }
+
+        .center-image img {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        section {
+            padding: 1rem 2rem;
+            margin: 1rem auto;
+            background: #0056b3; /* Darker blue for sections */
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            color: #fff; /* Ensure text is readable */
+        }
+
+        h3 {
+            font-family: 'Playfair Display', serif;
+            color: #fff;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 0.5rem;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 2rem;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+        }
+		
+		
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        table, th, td {
+            border: 1px solid #fff;
+        }
+
+        th, td {
+            padding: 0.5rem;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+        }
+
+        @media (max-width: 600px) {
+            section {
+                padding: 1rem;
+                margin: 1rem;
+            }
+        }
+		
+		     select {
+            margin: 1rem 0;
+            padding: 0.5rem;
+            background: #0056b3;
+            color: #fff;
+            border: 1px solid #fff;
+            font-size: 1rem;
+        }
+
+        option {
+            background: #007BFF;
+            color: #fff;
+        }
+		
+		  .hidden {
+            display: none;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eastern Africa Statistical Training Centre</h1>
+        <h2>Chuo cha Takwimu Mashariki mwa Afrika</h2>
+        <p>6th Convocation Ceremony - December 13, 2023</p>
+    </header>
+
+    <div class="center-image">
+        <img src="convocation3.jpg" alt="Convocation Image"> <!-- Ensure the path is correct -->
+    </div>
+	
+	   <section id="details">
+        <h3>Event Details</h3>
+        <p><strong>Date:</strong> 13th December 2023</p>
+        <p><strong>Place:</strong> EASTC Campus, Changanyikeni, DSM</p>
+        <p><strong>Venue:</strong> Function Hall, EASTC</p>
+        
+        <p><strong>Guest of Honor:</strong> Dr. Nkandwe Moses, Director of Information and Communication Technology Commission of Tanzania</p>
+    </section>
+
+    <section id="overview">
+        <h3>Overview</h3>
+        <p>The 6th convocation of the Eastern Africa Statistical Training Centre continues the tradition of gathering academicians, students, alumni, benefactors, and industry professionals. It is a time to exchange views on teaching, research, and professional development.</p>
+    </section>
+
+    <section id="theme">
+        <h3>Event Theme</h3>
+        <p>This year’s theme is “The role of official statistics and big data in the economic transformation and sustainable development of Tanzania,” reflecting the topic of the 18th November African Statistics Day.</p>
+    </section>
+
+  
+	
+   <section id="activities">
+        <h3>Convocation Activities</h3>
+        <select id="activity-select" onchange="showSection()">
+  
+            <option value="opening-remarks">Opening Remarks</option>
+            
+            
+            <option value="awards-recognitions">Awards and Recognitions</option>
+            <option value="presentations">Presentations</option>
+            <option value="closing-remarks">Closing Remarks</option>
+        </select>
+    </section>
+
+ 
+
+    <section id="opening-remarks">
+        <h3>Opening Remarks</h3>
+        <p>Preamble to Award Presentation and Consulting the Convocation</p>
+        <ul>
+            <li>Rector: Dr. Tumaini Katunzi</li>
+            <li>The President of the 5th Convocation</li>
+            <li>Guest of Honor</li>
+            <li>Chairperson and Members of EASTC Board</li>
+            <li>EASTC Benefactors</li>
+            <li>Academic and Staff of EASTC</li>
+            <li>Alumni</li>
+            <li>Students of EASTC</li>
+            <li>Researchers and Stakeholders in Public and Private Sector</li>
+            <li>Invited Guests</li>
+        </ul>
+    </section>
+
+    <section id="rector-remarks">
+        <h3>Rector's Remarks</h3>
+        <p>I appreciate this opportunity to offer my remarks as the Rector of EASTC at this 6th EASTC convocation. I appreciate the presence of our guest of honor, The Director General of the ICT Commission of Tanzania. I appreciate the presence of all our invited guests. I am grateful for the generous contribution of benefactors who have supported us with various equipment and gift awards to students in this academic year convocation.</p>
+        <p>The theme and topic allow this gathering to catch up, reflect, and contribute openly to issues that are relevant in the statistics and data science sector, professional life, research, and teaching.</p>
+        <p>As you are aware, convocations within academic institutions are a well-established tradition. It is an academic ceremony that gathers academicians, students, alumni, public and private sector stakeholders, and benefactors. It is a time for the university community to catch up with alumni, welcome new students, and begin new and continue established relations with stakeholders and benefactors of the university. It is a time to exchange views on topical issues within the sector we work in, teach, research, and innovate. For this matter, I invite all stakeholders and, in particular, the ICT Commission of Tanzania to pursue collaborative information.</p>
+        <p>Guest of Honor, most of the awards are funded by EASTC. I offer my sincere thanks to all those who sponsored the various awards of their choices. We are glad that you have joined us in celebrating excellence in our institution. I wish to encourage the members of the convocation and academic staff to sponsor various prizes for any category of their choice. I specifically challenge both public and private sectors to support our efforts at improving academic quality since the ultimate beneficiary is the industry. Those interested, please don’t hesitate to contact my office for further clarifications.</p>
+        <p>Having said that, “by the powers vested in me, as the EASTC Rector, I now constitute and call upon this gathering to be an official academic forum and therefore declare this the 6th Convocation of the Eastern Africa Statistical Training Centre on this 13rd December 2023.”</p>
+        <p>I welcome you to award the prizes to those that I will call out and address this 6th Convocation.</p>
+    </section>
+
+    <section id="guest-of-honor-remarks">
+        <h3>Guest of Honor's Remarks</h3>
+        <p>Most of the awards are funded by EASTC. I offer my sincere thanks to all those who sponsored the various awards of their choices. We are glad that you have joined us in celebrating excellence in our institution. I wish to encourage the members of the convocation and academic staff to sponsor various prizes for any category of their choice. I specifically challenge both public and private sectors to support our efforts at improving academic quality since the ultimate beneficiary is the industry. Those interested, please don’t hesitate to contact my office for further clarifications.</p>
+    </section>
+
+    <section id="presentations">
+        <h3>Presentations</h3>
+        <h4>Presenter 1: John Behitsa</h4>
+        <p>Assistant Lecturer: Eastern African Statistical Training Centre</p>
+        <p><strong>Topic:</strong> The Emerging Data Science and Digital Ecosystem of Tanzania - TRENDS & PERSPECTIVES</p>
+        <ul>
+            <li>Background: Tanzania’s Technology Journey</li>
+            <li>Data Science and Digital Ecosystem: Concept</li>
+            <li>Key Digital Trends 1.0: Changes in Business Sectors</li>
+            <li>Key Digital Trends 2.0: Founders and Challenges</li>
+            <li>Key Digital Trends 3.0: Consumers and Data for Business Competition</li>
+            <li>Professional Agendas: Data Science, Comp. Programming & Info.</li>
+            <li>Technical Work: Idea to MVP to Selling Digital Products in the Market</li>
+            <li>Tech and Apps in Tanzania: Success and Failure Stories, Pitching Potential New Apps</li>
+            <li>Way Forward 1.0: Presenter’s Opinion</li>
+            <li>Way Forward 2.0: Audience Opinions and Discussions</li>
+        </ul>
+
+        <h4>Presenter 2: Dr. David Msokwe</h4>
+        <p>Lecturer: Eastern African Statistical Training Centre</p>
+        <p><strong>Topic:</strong> Understanding the Concept of Big Data and its Challenges in Higher Learning Institutes: A Case of EASTC</p>
+        <ul>
+            <li>Conceptualize the Term Big Data</li>
+            <li>Challenges Facing Big Data in Higher Learning Institutions</li>
+            <li>Measures for the Challenges Facing Big Data in Higher Learning Institutions</li>
+        </ul>
+    </section>
+	
+	<section id="awards-recognitions">
+        <h3>Awards and Recognitions</h3>
+        <h4>1. Academic Staff Prizes</h4>
+        <table>
+            <tr>
+                <th>SN</th>
+                <th>Registration</th>
+                <th>F. Name</th>
+                <th>M. Name</th>
+                <th>Surname</th>
+                <th>Sex</th>
+                <th>Nationality</th>
+                <th>Score</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1524010291998</td>
+                <td>Fatma</td>
+                <td>Khamis</td>
+                <td>Juma</td>
+                <td>F</td>
+                <td>Tanzanian</td>
+                <td>84</td>
+                <td>A</td>
+            </tr>
+        </table>
+		
+		  </table>
+
+        <p><strong>Leguma Bakari’s Prize</strong><br>Best student in data Management and analysis using STATA</p>
+        <table>
+            <tr>
+                <th>SN</th>
+                <th>Registration</th>
+                <th>F. Name</th>
+                <th>M. Name</th>
+                <th>Surname</th>
+                <th>Sex</th>
+                <th>Nationality</th>
+                <th>Score</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1512010192103</td>
+                <td>Munawar</td>
+                <td>Suleiman</td>
+                <td>Omar</td>
+                <td>F</td>
+                <td>Tanzanian</td>
+                <td>81</td>
+                <td>A</td>
+            </tr>
+        </table>
+
+        <h4>2. Certificates of Merit to EASTC-SO Leaders</h4>
+        <p>Awarded to the leadership of the student organization for their tireless efforts and will to add administrative tasks to their heavy academic leads. The award will be a certificate for each leader.</p>
+    </section>
+	
+	 <section id="closing-remarks">
+        <h3>Closing Remarks</h3>
+        <p>We are immensely grateful to all our distinguished guests, participants, and contributors for making this 6th Convocation a success. We extend our heartfelt thanks to the organizing committee, faculty, and staff of EASTC for their dedication and hard work.</p>
+        <p>As we conclude this convocation, we look forward to the future with optimism and determination to continue our mission of excellence in statistical education and research. Thank you all for your presence and participation. We wish you safe travels and look forward to seeing you at future events.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Eastern Africa Statistical Training Centre. All rights reserved.</p>
+    </footer>
+</body>
+</html>
